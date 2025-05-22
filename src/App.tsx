@@ -9,7 +9,6 @@ import NotFound from "./pages/NotFound";
 // Import our pages
 import LandingPage from "./pages/LandingPage";
 import LoginPage from "./pages/LoginPage";
-import GetStartedPage from "./pages/GetStartedPage";
 import DataOptionsPage from "./pages/DataOptionsPage";
 import BankDataOptionsPage from "./pages/BankDataOptionsPage";
 import BankSelectionPage from "./pages/BankSelectionPage";
@@ -34,7 +33,6 @@ const App = () => (
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/login" element={<LoginPage />} />
-          <Route path="/get-started" element={<GetStartedPage />} />
           <Route path="/data-options" element={<DataOptionsPage />} />
           <Route path="/bank-options" element={<BankDataOptionsPage />} />
           <Route path="/bank-selection" element={<BankSelectionPage />} />

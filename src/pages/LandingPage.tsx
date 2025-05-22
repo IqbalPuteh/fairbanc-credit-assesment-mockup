@@ -22,7 +22,7 @@ const LandingPage = () => {
             AI. Make data-driven decisions confidently and efficiently. Start your
             AI-driven credit assessment today.
           </p>
-          <Link to="/get-started">
+          <Link to="/login">
             <Button size="lg" className="rounded-full text-lg px-8 py-6 animate-fade-in">
               START NOW
             </Button>

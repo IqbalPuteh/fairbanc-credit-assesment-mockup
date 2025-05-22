@@ -10,9 +10,11 @@ const Header = () => {
           <img src="/logo.png" alt="Fairbanc" className="h-10" />
         </Link>
         <div className="flex items-center gap-4">
-          <Button variant="default" className="rounded-full bg-primary hover:bg-primary-hover">
-            Log In
-          </Button>
+          <Link to="/login">
+            <Button variant="default" className="rounded-full bg-primary hover:bg-primary-hover">
+              Log In
+            </Button>
+          </Link>
           <Button variant="outline" className="rounded-full bg-gray-100 border-none text-gray-600 hover:bg-gray-200 hover:text-gray-800">
             Book a Demo
           </Button>
