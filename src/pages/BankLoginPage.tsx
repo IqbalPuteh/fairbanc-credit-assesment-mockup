@@ -38,7 +38,12 @@ const BankLoginPage = () => {
     }
 
     // Mock login
-    navigate("/personal-info");
+    toast({
+      title: "Success",
+      description: "Successfully connected to your bank account",
+      variant: "default",
+    });
+    navigate("/data-options");
   };
 
   return (

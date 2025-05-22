@@ -62,7 +62,7 @@ const PersonalInfoPage = () => {
       title: "Success",
       description: "Your information has been submitted successfully",
     });
-    navigate("/success");
+    navigate("/company-info");
   };
 
   return (

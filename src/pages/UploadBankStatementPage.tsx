@@ -47,7 +47,7 @@ const UploadBankStatementPage = () => {
       title: "Upload successful",
       description: "Your bank statement has been uploaded successfully",
     });
-    navigate("/personal-info");
+    navigate("/data-options");
   };
 
   return (

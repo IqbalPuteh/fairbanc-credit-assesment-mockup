@@ -50,7 +50,7 @@ const CompanyInfoPage = () => {
       title: "Success",
       description: "Your company information has been submitted successfully",
     });
-    navigate("/success");
+    navigate("/bank-options");
   };
 
   return (
