@@ -37,7 +37,7 @@ const BankLoginPage = () => {
       return;
     }
 
-    // Mock login
+    // Navigate to data options page after bank login
     toast({
       title: "Success",
       description: "Successfully connected to your bank account",

@@ -42,7 +42,7 @@ const UploadMonthlyReportPage = () => {
       return;
     }
 
-    // Mock upload
+    // Mock upload and navigate to success page
     toast({
       title: "Upload successful",
       description: "Your monthly report has been uploaded successfully",

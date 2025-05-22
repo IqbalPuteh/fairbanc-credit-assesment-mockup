@@ -57,7 +57,7 @@ const PersonalInfoPage = () => {
       return;
     }
 
-    // Submit form
+    // Navigate to company info page
     toast({
       title: "Success",
       description: "Your information has been submitted successfully",

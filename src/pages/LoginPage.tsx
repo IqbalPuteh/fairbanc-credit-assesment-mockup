@@ -28,7 +28,7 @@ const LoginPage = () => {
       return;
     }
     
-    // Mock login - would be replaced with actual authentication logic
+    // Mock login - navigate to personal info page
     toast({
       title: "Success",
       description: "Logged in successfully",

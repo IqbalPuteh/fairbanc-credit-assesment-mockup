@@ -45,7 +45,7 @@ const CompanyInfoPage = () => {
       return;
     }
 
-    // Submit form
+    // Navigate to bank options page
     toast({
       title: "Success",
       description: "Your company information has been submitted successfully",

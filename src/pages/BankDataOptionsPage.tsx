@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import PageContainer from "@/components/layout/PageContainer";
@@ -11,10 +10,8 @@ const BankDataOptionsPage = () => {
   const navigate = useNavigate();
 
   const handleContinue = () => {
-    if (selectedOption === "direct_access" || selectedOption === "upload_statement") {
-      // Both options lead to bank selection now
-      navigate("/bank-selection");
-    }
+    // Both options lead to bank selection
+    navigate("/bank-selection");
   };
 
   return (

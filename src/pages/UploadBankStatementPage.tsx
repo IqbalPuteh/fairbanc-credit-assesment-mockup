@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -42,7 +41,7 @@ const UploadBankStatementPage = () => {
       return;
     }
 
-    // Mock upload
+    // Navigate to data options after bank statement upload
     toast({
       title: "Upload successful",
       description: "Your bank statement has been uploaded successfully",
@@ -54,11 +53,11 @@ const UploadBankStatementPage = () => {
     <PageContainer className="flex items-center justify-center p-4">
       <FormCard 
         title="Upload Your Bank Statement"
-        subtitle="Easily upload your bank statement (minimum 6 months) to provide essential financial data. Secure, confidential, and used solely for assessment purposes"
+        subtitle="Please upload your bank statement for the last 6 months"
       >
         <div className="mt-4">
           <h3 className="text-base font-medium mb-2">
-            Share your bank statements to personalize your experience and unlock tailored insights.
+            Share your bank statement for an accurate assessment of your financial health.
           </h3>
           
           <form onSubmit={handleSubmit} className="space-y-6 mt-6">
@@ -82,7 +81,7 @@ const UploadBankStatementPage = () => {
                   </div>
                 ) : (
                   <div className="space-y-4">
-                    <p className="text-gray-500">Able to upload multiple bank statement in pdf</p>
+                    <p className="text-gray-500">Upload your bank statement (PDF format)</p>
                     <div>
                       <Input
                         id="bank_statement"

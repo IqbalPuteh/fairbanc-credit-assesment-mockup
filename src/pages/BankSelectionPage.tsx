@@ -28,10 +28,12 @@ const BankSelectionPage = () => {
   ];
 
   const handleContinue = () => {
+    // Direct bank connection requires login
     navigate("/bank-login");
   };
 
   const handleUploadStatement = () => {
+    // Upload statement route
     navigate("/upload-bank-statement");
   };
 

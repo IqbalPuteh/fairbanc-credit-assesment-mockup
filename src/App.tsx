@@ -33,16 +33,16 @@ const App = () => (
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/login" element={<LoginPage />} />
-          <Route path="/data-options" element={<DataOptionsPage />} />
-          <Route path="/bank-options" element={<BankDataOptionsPage />} />
-          <Route path="/bank-selection" element={<BankSelectionPage />} />
-          <Route path="/erp-selection" element={<ERPSelectionPage />} />
-          <Route path="/bank-login" element={<BankLoginPage />} />
-          <Route path="/erp-login" element={<ERPLoginPage />} />
-          <Route path="/upload-bank-statement" element={<UploadBankStatementPage />} />
-          <Route path="/upload-monthly" element={<UploadMonthlyReportPage />} />
           <Route path="/personal-info" element={<PersonalInfoPage />} />
           <Route path="/company-info" element={<CompanyInfoPage />} />
+          <Route path="/bank-options" element={<BankDataOptionsPage />} />
+          <Route path="/bank-selection" element={<BankSelectionPage />} />
+          <Route path="/bank-login" element={<BankLoginPage />} />
+          <Route path="/upload-bank-statement" element={<UploadBankStatementPage />} />
+          <Route path="/data-options" element={<DataOptionsPage />} />
+          <Route path="/erp-selection" element={<ERPSelectionPage />} />
+          <Route path="/erp-login" element={<ERPLoginPage />} />
+          <Route path="/upload-monthly" element={<UploadMonthlyReportPage />} />
           <Route path="/success" element={<SuccessPage />} />
           <Route path="/dashboard" element={<DashboardPage />} />
           <Route path="*" element={<NotFound />} />
