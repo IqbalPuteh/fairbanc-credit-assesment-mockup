@@ -47,7 +47,7 @@ const UploadMonthlyReportPage = () => {
       title: "Upload successful",
       description: "Your monthly report has been uploaded successfully",
     });
-    navigate("/company-info");
+    navigate("/success");
   };
 
   return (

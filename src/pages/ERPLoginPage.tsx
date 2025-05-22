@@ -37,8 +37,8 @@ const ERPLoginPage = () => {
       return;
     }
 
-    // Mock login
-    navigate("/company-info");
+    // Mock login - navigate to success page
+    navigate("/success");
   };
 
   return (
